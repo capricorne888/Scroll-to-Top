@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="http://checkthese.com/img/IMG_0160.PNG?2" alt="Capricorne888" width="200" height="200">
+</p>
+
 # Scroll-to-Top Button
 
 This repository contains a simple JavaScript implementation of a "Scroll-to-Top" button. The button appears when the user scrolls down a webpage and allows them to smoothly scroll back to the top with a single click.
