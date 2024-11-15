@@ -1,5 +1,3 @@
-Top floating arrow button
-
 // Create the button element
 var scrollButton = document.createElement("button");
 scrollButton.innerHTML = "&#8679;"; // Up arrow symbol
