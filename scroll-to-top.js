@@ -14,6 +14,9 @@ scrollButton.style.cursor = "pointer";
 scrollButton.style.padding = "15px";
 scrollButton.style.borderRadius = "4px";
 
+// Initially hide the button
+scrollButton.style.display = "none";
+
 // Add scroll functionality
 scrollButton.addEventListener('click', function() {
   window.scrollTo({
@@ -28,9 +31,9 @@ document.body.appendChild(scrollButton);
 
 // Show/hide button based on scroll position
 window.onscroll = function() {
-  if (window.pageYOffset > 20) {
+  if (window.pageYOffset > 80) {
     scrollButton.style.display = "block";
   } else {
     scrollButton.style.display = "none";
   }
-}
+};
